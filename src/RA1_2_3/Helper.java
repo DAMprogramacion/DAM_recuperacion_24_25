@@ -1,5 +1,9 @@
 package RA1_2_3;
 
+import RA1_2_3.examen.modelo.Airport;
+
+import java.util.List;
+
 public class Helper {
     public static boolean checkEmail (String email) {
         return email.matches(".+@.+\\..+");
@@ -22,4 +26,6 @@ public class Helper {
         System.out.println(checkIP("300.200.200.200"));
         System.out.println(checkIP("200.200.200.200"));
     }
+
+
 }
